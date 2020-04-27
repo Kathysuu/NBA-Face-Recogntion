@@ -13,6 +13,9 @@ Users can either upload pictures from the photo library to identify NBA player o
 ### Phote Library Upload
 The system will identify the face in the entire picture, crop the face and then send the face section to the deep learning model to recognize the result. If users upload an image without a human face or the player is not in our dataset, the system will show "couldn’t find any face" and "unknown".
 
+<img src="Face/image/photo.GIF" width=240 height=400>
 
 ### Camera Real-Time
 As the camera moves, the system continuously recognizes the face on the screen, also displays the predict player name and probability. The structure and function were inspired by [Rosebrock](https://www.pyimagesearch.com/2018/04/23/running-keras-).
+
+<img src="Face/image/camera.GIF" width=240 height=400>
